@@ -1,0 +1,17 @@
+
+-set up the socket for listening
+while true:
+	-accept connection from user
+	-wait to receive two newline characters
+	-parse the message to make sure the request is in the right format
+	-if the message is not in the right format
+		do nothing with current message and wait for another
+	-store filepath
+	if filepath does not exist:
+		send 404 error message
+	-open file from given filepath
+	-while !EOF:
+		-fill file buffer
+		-send bytes
+		
+	
